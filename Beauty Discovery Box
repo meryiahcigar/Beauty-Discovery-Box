@@ -3,124 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GlowBox Skincare</title>
+<title>Beauty Discovery Box</title>
 <style>
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fdf7f2;
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-  header {
-    background-color: #ffe8e0;
-    text-align: center;
-    padding: 2rem;
-  }
-  header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    color: #d94f4f;
-  }
-  header p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-  }
-  .container {
-    max-width: 1100px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-  }
-  .product-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-  }
-  .product-card {
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 1.5rem;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .product-card img {
-    width: 80%;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
-  .product-card h2 {
-    color: #d94f4f;
-    font-size: 1.5rem;
-    margin: 0.5rem 0;
-  }
-  .product-card p {
-    font-size: 0.95rem;
-    text-align: center;
-  }
-  .subscribe-btn {
-    margin-top: 1rem;
-    padding: 0.8rem 1.2rem;
-    background-color: #d94f4f;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s;
-  }
-  .subscribe-btn:hover {
-    background-color: #b13a3a;
-  }
-  footer {
-    text-align: center;
-    padding: 2rem;
-    background-color: #ffe8e0;
-    margin-top: 3rem;
-  }
+  body { font-family: Arial, sans-serif; background-color: #fdf7f2; margin:0; padding:0; color:#333; }
+  header { background-color: #ffe8e0; text-align:center; padding:2rem; }
+  header h1 { margin:0; font-size:2.5rem; color:#d94f4f; }
+  header p { font-size:1.2rem; margin-top:0.5rem; }
+  .container { max-width:1100px; margin:2rem auto; padding:0 1rem; }
+  .product-grid { display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; }
+  .product-card { background-color:#fff; border-radius:12px; padding:1.5rem; width:300px; box-shadow:0 4px 8px rgba(0,0,0,0.1); display:flex; flex-direction:column; align-items:center; }
+  .product-card img { width:80%; border-radius:8px; margin-bottom:1rem; }
+  .product-card h2 { color:#d94f4f; font-size:1.5rem; margin:0.5rem 0; text-align:center; }
+  .product-card p { font-size:0.95rem; text-align:center; }
+  .subscribe-btn { margin-top:1rem; padding:0.8rem 1.2rem; background-color:#d94f4f; color:#fff; border:none; border-radius:8px; text-decoration:none; font-weight:bold; transition: background 0.3s; }
+  .subscribe-btn:hover { background-color:#b13a3a; }
+  footer { text-align:center; padding:2rem; background-color:#ffe8e0; margin-top:3rem; }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>GlowBox Skincare</h1>
+  <h1>Beauty Discovery Box</h1>
   <p>Discover a New Skincare Favorite Every Month</p>
 </header>
 
 <div class="container">
   <h2 style="text-align:center; margin-bottom:2rem;">Our Subscription Boxes</h2>
   <div class="product-grid">
+
     <!-- Starter Box -->
     <div class="product-card">
-      <img src="starter-box.jpg" alt="Starter Box">
+      <img src="images/starter-box.jpg" alt="Starter Box">
       <h2>Starter Box – $15/month</h2>
-      <p>Perfect for skincare newbies! 3–4 curated sample products including sheet masks, serums, and cleansers. Free shipping. Cancel anytime.</p>
+      <p>Perfect for skincare newbies! Each month, receive 3–4 curated sample products including sheet masks, serums, and cleansers. Free shipping. Cancel anytime.</p>
       <a class="subscribe-btn" href="https://payhip.com/your-starter-box-link" target="_blank">Subscribe Now</a>
     </div>
 
     <!-- Glow Box -->
     <div class="product-card">
-      <img src="glow-box.jpg" alt="Glow Box">
+      <img src="images/glow-box.jpg" alt="Glow Box">
       <h2>Glow Box – $25/month</h2>
-      <p>5–6 premium sample products + 1 full-size item each month. Includes bonus skincare tip card. Free shipping. Cancel anytime.</p>
+      <p>Receive 5–6 premium sample products + 1 full-size item each month. Bonus skincare tip card included. Free shipping. Cancel anytime.</p>
       <a class="subscribe-btn" href="https://payhip.com/your-glow-box-link" target="_blank">Subscribe Now</a>
     </div>
 
     <!-- Luxury Glow Box -->
     <div class="product-card">
-      <img src="luxury-box.jpg" alt="Luxury Glow Box">
+      <img src="images/luxury-box.jpg" alt="Luxury Glow Box">
       <h2>Luxury Glow Box – $49/month</h2>
       <p>6–8 handpicked samples including 2 full-size products. VIP packaging and access to online skincare tutorials. Free shipping. Cancel anytime.</p>
       <a class="subscribe-btn" href="https://payhip.com/your-luxury-box-link" target="_blank">Subscribe Now</a>
     </div>
+
   </div>
 </div>
 
 <footer>
-  <p>&copy; 2025 GlowBox Skincare | Follow us on Instagram @GlowBoxSkincare</p>
+  <p>&copy; 2025 Beauty Discovery Box | Follow us on Instagram @BeautyDiscoveryBox</p>
 </footer>
 
 </body>
